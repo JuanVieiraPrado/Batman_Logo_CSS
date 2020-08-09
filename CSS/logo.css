@@ -1,0 +1,126 @@
+body {
+    margin: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.batman_logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 450px;
+    height: 250px;
+
+    background-color: #fbff00;
+    border: 14px solid #000000;
+    border-radius: 50%;
+
+    overflow: hidden;
+}
+
+.centro {
+    position: relative;
+
+    width: 410px;
+    height: 210px;
+
+    background-color: #000000;
+    border-radius: 50%;
+}
+
+.camada {
+    position: absolute;
+
+    background-color: #fbff00;
+}
+
+.camada_1 {
+    top: 0;
+    left: 50%;
+
+    width: 20px;
+
+    background-color: transparent;
+    border-top: 20px solid #fbff00;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+
+    transform: translateX(-50%);
+}
+
+.camada_2 {
+    left: 110px;
+    
+    border-radius: 60% 0 54% 42%;
+
+    transform: rotate(6deg);
+    
+}
+
+.camada_3 {
+    right: 110px;
+
+    border-radius: 0% 60% 42% 54%;
+
+    transform: rotate(-6deg);
+}
+
+.camada_4 {
+    left: 96px;
+
+    border-radius: 34% 66% 0 0;
+
+    transform: rotate(-30deg);
+}
+
+.camada_5 {
+    left: 138px;
+
+    transform: rotate(-18deg);
+}
+
+.camada_6 {
+    right: 138px;
+
+    transform: rotate(18deg);
+}
+
+.camada_7 {
+    right: 96px;
+
+    border-radius: 66% 34% 0 0;
+
+    transform: rotate(30deg);
+}
+
+.camada_2,
+.camada_3 {
+    top: -5px;
+
+    width: 70px;
+    height: 80px;
+}
+
+.camada_5,
+.camada_6 {
+    top: 135px;
+
+    border-radius: 50% 50% 0 0;
+}
+
+.camada_4,
+.camada_7 {
+    top: 120px;
+}
+
+.camada_4,
+.camada_5,
+.camada_6,
+.camada_7 {
+    width: 80px;
+    height: 100%;
+}
