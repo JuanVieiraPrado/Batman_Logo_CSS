@@ -2,6 +2,7 @@
 
 - [Sobre](#-Sobre)
 - [Tecnologias utilizadas](#-Tecnologias-utilizadas)
+- [Preview](#-Preview)
 
 ---
 
